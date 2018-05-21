@@ -58,7 +58,7 @@ client.on("message", message => {
     for (var i = 0; i < text.length; i++) {
         for (var j = 0; j < message.content.split(" ").length; j++) {
             if (message.content.split(" ")[j].toLocaleLowerCase() == text[i]) {
-                if (!message.guild.member(message.author).hasPermission("KICK_MEMBERS")) return;
+                if (message.guild.member(message.author).hasPermission("KICK_MEMBERS")) return;
                 message.channel.send("Hey "+message.author+", that sort of language isn't allowed here so your message has been removed. Please read re-read the rules in #welcome");
                 message.delete();
             }
