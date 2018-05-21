@@ -10,5 +10,6 @@
         "in the tutorial",
         "with friends"
     ],
-    "token": "put-baddie-token-here"
+    "token": "put-baddie-token-here",
+    "id": "client-id-here"
 }
