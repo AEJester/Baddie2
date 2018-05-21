@@ -14,7 +14,7 @@ client.on("ready", () => {
     client.user.setGame("q!commands | Q.U.I.R.K Bot");
     console.log("Baddie 2 is ready!");
     setInterval(function() {
-        request("https://api.twitch.tv/kraken/streams/playQUIRK?client_id=179pgwjkvdfce40r00gte61i22uw63", function(err, res, bdy) {
+        request("https://api.twitch.tv/kraken/streams/playQUIRK?client_id=<client_id>", function(err, res, bdy) {
             if (!bdy) {
 
             } else {
