@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>"Q.U.I.R.K. Contest"</title>
+        <script src="site.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Create a contest!</h1>
+        <p>
+            Contest name:<br>
+            <input type="text" id="contest-name"><br>
+            Contest description:<br>
+            <input type="text" id="contest-desc" maxlength="100" placeholder="Keep it under 100 characters"><br>
+            Contest type:<br>
+            <input type="text" id="contest-type"><br>
+            Contest creator:<br>
+            <input type="text" id="contest-creator" placeholder="Your username..."><br>
+            Start date:<br>
+            <input type="date" id="contest-start-date"><br>
+            End date:<br>
+            <input type="date" id="contest-end-date"><br>
+            Start time:<br>
+            <input type="time" id="contest-start-time"><br>
+            End time:<br>
+            <input type="time" id="contest-end-time"><br>
+            Judges:<br>
+            <input type="radio" id="contest-judges-panel" value="panel"> Panel<br>
+            <input type="radio" id="contest-judges-community" value="community"> Community<br>
+            Requirements:<br>
+            <input type="text" id="contest-requirements" placeholder='Seperate each requirement with a comma ","' size="35px"><br>
+            <button id="btn" onclick="sub()">Create Contest</button>
+        </p>
+        <div id="json">
+            <p id="p-json"></p>
+        </div>
+    </body>
+</html>
+
+<!-- test yes it works-->

@@ -1,0 +1,39 @@
+{
+    "hello": [
+        "hi ",
+        "hello",
+        "hey",
+        "whats up",
+        "how is it going",
+        "hows it going",
+        "how is it goin",
+        "hows it goin",
+        "howdy",
+        "ola ",
+        "bojour",
+        "good morning",
+        "good afternoon",
+        "wassa "
+    ],
+    "bye": [
+        "goodbye",
+        "see ya later",
+        "adios",
+        "see you later",
+        "catch you on the flip side",
+        "see you later aligator"
+    ],
+    "questions": [
+        "how is your day",
+        "hows your day",
+        "how is your day going",
+        "hows your day going",
+        "how is your day goin",
+        "hows your day goin",
+        "whats going on",
+        "what is going on",
+        "whats goin on",
+        "what is goin on",
+        "nothing much"
+    ]
+}

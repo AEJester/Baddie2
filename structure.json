@@ -1,0 +1,16 @@
+{
+    "name": "contest name NO SPACES",
+    "description": "keep it under 100 characters (make a character counter) NO SPACES",
+    "type": "whatever contest type",
+    "creator": "user name",
+    "start_date": "yeah its a start date",
+    "end_date": "also end date",
+    "start_time": "starting time WITH timezone",
+    "end_time": "ending time WITH timezone",
+    "judges": "Community OR Panel of judges",
+    "requirements": [
+        "an array",
+        "of",
+        "requirements"
+    ]
+}
